@@ -4,6 +4,9 @@ return array(
         'driver' => array(
             'ScnSocialAuth-Entity' => array(
                 'class' => 'Doctrine\ODM\MongoDB\Mapping\Driver\AnnotationDriver',
+                'paths'  => [
+                    __DIR__ . '/../src/ScnSocialAuthDoctrineMongoODM/Document'
+                ]
             ),
             'odm_default' => array(
                 'drivers' => array(
