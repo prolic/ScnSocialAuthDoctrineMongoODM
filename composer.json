@@ -19,7 +19,7 @@
         "php": ">=5.3.3",
         "zendframework/zend-servicemanager": "2.*",
         "zendframework/zend-modulemanager": "2.*",
-        "socalnick/scn-social-auth": "1.*",
+        "socalnick/scn-social-auth": "dev-patch-1",
         "zf-commons/zfc-user-doctrine-mongo-odm": "~0.1"
     },
     "autoload": {
